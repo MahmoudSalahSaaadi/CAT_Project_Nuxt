@@ -4,8 +4,10 @@ import BaseToast from '~/components/_Shared/BaseToast.vue';
 
 <template>
   <div>
+    <SharedHomeBaseHeader />
     <main class="relative flex h-screen">
-      <div class="w-full grid place-items-center h-full">
+      <div class="w-full  h-full">
+
         <slot />
       </div>
     </main>

@@ -7,52 +7,31 @@
 
 @layer base {
     @font-face {
-        font-display: swap;
-        font-family: 'Avenir';
-        font-style: normal;
+        font-family: 'spaceRegular';
+        src: url('/assets/fonts/SpaceGrotesk-Regular.ttf') format('opentype');
         font-weight: normal;
-        src: url('~/assets/fonts/avenir-lt-pro-normal.otf') format('OpenType');
-    }
-
-    @font-face {
-        font-display: swap;
-        font-family: 'Avenir';
         font-style: normal;
+        font-display: swap;
+      }
+      
+      @font-face {
+        font-family: 'spaceMedium';
+        src: url('/assets/fonts/SpaceGrotesk-Medium.ttf') format('opentype');
         font-weight: 500;
-        src: url('~/assets/fonts/avenir-lt-pro-medium.otf') format('OpenType');
-    }
-
-    @font-face {
-        font-display: swap;
-        font-family: 'Avenir';
         font-style: normal;
+        font-display: swap;
+      }
+      
+      @font-face {
+        font-family: 'spaceBold';
+        src: url('/assets/fonts/SpaceGrotesk-Bold.ttf') format('opentype');
         font-weight: bold;
-        src: url('~/assets/fonts/avenir-lt-pro-black.otf') format('OpenType');
-    }
-
-    @font-face {
-        font-display: swap;
-        font-family: 'Neosans';
         font-style: normal;
-        font-weight: normal;
-        src: url('~/assets/fonts/neo-sans-arabic-regular.woff2') format('woff2');
-    }
-
-    @font-face {
         font-display: swap;
-        font-family: 'Neosans';
-        font-style: normal;
-        font-weight: 500;
-        src: url('~/assets/fonts/neo-sans-arabic-medium.woff2') format('woff2');
-    }
+      }
+      
 
-    @font-face {
-        font-display: swap;
-        font-family: 'Neosans';
-        font-style: normal;
-        font-weight: bold;
-        src: url('~/assets/fonts/neo-sans-arabic-bold.woff2') format('woff2');
-    }
+ 
 }
 
 @layer components {

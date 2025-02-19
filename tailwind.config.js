@@ -11,8 +11,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Avenir', 'Neosans', 'sans-serif'],
-      },
+        display: ["spaceRegular"],
+        medium: ["spaceMedium"],
+        bold: ["spaceBold", "sans-serif"],      },
       colors: {
         primary: {
           0: '#F7F2EF',

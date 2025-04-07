@@ -10,15 +10,20 @@
                     creation.</p>
 
                 <NuxtLink class="text-xl py-5 px-[35px] rounded-[14px] bg-[#191A23] text-white w-[264px]" to="/">Book a
-                    consultation
+                    consultation 
                 </NuxtLink>
             </section>
             <section>
                 <figure>
                     <img class="w-full h-full object-cover" src="/images/design/home/sound-hero.svg" alt="Logo">
                 </figure>
+                <div>
+                    <p>Digital Marketing</p>
+                    <h1 class="text-6xl font-medium leading-[76.56px] w-[450px]">Navigating the digital landscape for
+                        success
+                    </h1>
+                </div>
             </section>
         </section>
     </main>
-
 </template>
